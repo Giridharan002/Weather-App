@@ -38,3 +38,22 @@ The JavaScript code for the app includes an API key, which is used to fetch weat
     `<div>Wind speed: 5 m/s</div>-->`: Commented out code that would have displayed additional weather details if uncommented.
 22. `<script src="index.js"></script>`: Links the JavaScript file named "index.js" to the HTML document.
 
+## style.css:
+
+The CSS code is responsible for the visual design and layout of the HTML elements. Here's a breakdown of the CSS code used in this weather app:
+
+- `body`: This code sets the margin, font family, and background color for the entire webpage.
+- `.container`: This code sets the background color, box-shadow, margin, text alignment, max-width, and border-radius for the container div that holds all the content of the webpage.
+- `form`: This code sets the display, justify-content, align-items, and margin-bottom for the form element that allows users to input the city name and retrieve weather data.
+- `form input[type="text"]`: This code sets the padding, border, outline, font size, and width for the text input field where users can input the city name.
+- `form input[type="submit"]`: This code sets the background-color, color, border, padding, border-radius, font-size, cursor, outline, and transition for the submit button that retrieves the weather data.
+- `form input[type="submit"]:hover`: This code changes the background-color of the submit button when the user hovers over it.
+- `.icon img`: This code sets the width, height, background-size, background-repeat, and background-position for the weather icon displayed on the webpage.
+- `.temperature`: This code sets the font-size, font-weight, and margin for the temperature data displayed on the webpage.
+- `.description`: This code sets the font-size and margin for the weather description displayed on the webpage.
+- `.details`: This code sets the display, justify-content, align-items, and flex-wrap for the div that displays additional weather details.
+- `.details > div`: This code sets the padding, background-color, margin, flex, border-radius, text-alignment, and min-height for each div that displays the additional weather details.
+- `@media (max-width: 768px)`: This code sets the flex-direction, width, and margin-bottom for the form input field when the screen width is less than or equal to 768 pixels.
+
+Overall, this CSS code provides a clean and responsive layout for the weather app, ensuring that it looks great on all screen sizes.
+
